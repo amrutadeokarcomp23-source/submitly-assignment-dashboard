@@ -3,6 +3,7 @@ import LoginPage from './pages/LoginPage'
 import StudentDashboard from './pages/StudentDashboard'
 import AdminDashboard from './pages/AdminDashboard'
 import Header from './components/Header'
+import WelcomeBanner from './components/WelcomeBanner'
 import Spinner from './components/Spinner'
 import ErrorState from './components/ErrorState'
 import Toast from './components/Toast'
@@ -30,6 +31,7 @@ export default function App() {
       <>
         <Header />
         <main id="main" className="mx-auto w-full max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
+          <WelcomeBanner />
           {currentUser.role === 'admin' ? <AdminDashboard /> : <StudentDashboard />}
         </main>
       </>

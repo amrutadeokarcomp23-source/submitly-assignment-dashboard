@@ -1,4 +1,6 @@
-# Assignment & Review Dashboard
+# Submitly: Assignment & Review Dashboard
+
+> Every assignment, tracked from assigned to submitted.
 
 A responsive dashboard for a student-assignment system with two roles, **Student** and **Admin (Professor)**.
 Built with **React 18 + Tailwind CSS (Vite)**. There is no backend: data lives in `localStorage` behind a small mock API layer, so it survives page refreshes.
