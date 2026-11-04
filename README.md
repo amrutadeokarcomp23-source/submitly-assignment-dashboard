@@ -5,6 +5,7 @@
 A responsive dashboard for a student-assignment system with two roles, **Student** and **Admin (Professor)**.
 Built with **React 18 + Tailwind CSS (Vite)**. There is no backend: data lives in `localStorage` behind a small mock API layer, so it survives page refreshes.
 
+- Live video: https://submitly-assignment-dashboard.vercel.app/
 - Demo video: https://drive.google.com/file/d/1HRLfRozjUslx1Y9f0Xt_00FUKYqt5zLS/view?usp=sharing
 
 ## Features
